@@ -1,5 +1,16 @@
 .base-layout {
-  width: 1000px;
-  height: 1000px;
-  background: #00093993;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: $light-white;
+  .main-header {
+    min-height: 80px;
+    box-shadow: 0px 58px 103px rgba(181, 181, 181, 0.11),
+      0px 29.3625px 44.9016px rgba(181, 181, 181, 0.07425),
+      0px 11.6px 16.7375px rgba(181, 181, 181, 0.055),
+      0px 2.5375px 5.95469px rgba(181, 181, 181, 0.03575);
+  }
+  .main-container {
+    flex-grow: 1;
+  }
 }

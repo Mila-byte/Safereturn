@@ -1,0 +1,25 @@
+.safe-return {
+  margin-top: 18px;
+  margin-left: 34px;
+  width: 60px;
+  height: 45px;
+  background: linear-gradient(to right, #065AEF, #48ACFF);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  &_logo {
+    margin-top: 5px;
+  }
+  &_logo-text {
+    margin-top: -10px;
+    color: #FFFD82;
+    font-weight: 500;
+    font-size: 9px;
+    width: 40px;
+    font-family: "LogoFont";
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+  }
+}

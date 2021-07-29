@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app">
     <main-layout></main-layout>
   </div>
 </template>
@@ -12,4 +12,5 @@ export default {
   }
 }
 </script>
-<style></style>
+<style>
+</style>
