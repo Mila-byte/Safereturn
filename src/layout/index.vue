@@ -3,7 +3,9 @@
     <div class="main-header">
       <safe-return></safe-return>
     </div>
-    <div class="main-container"></div>
+    <div class="main-container">
+      <slot></slot>
+    </div>
   </div>
 </template>
 

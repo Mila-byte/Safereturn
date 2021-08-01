@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <main-layout></main-layout>
+    <Auth />
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   name: 'App',
   components: {
-    MainLayout: () => import('@/layout')
+    Auth: () => import('@/layout/Auth.vue')
   }
 }
 </script>
